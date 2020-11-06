@@ -1,0 +1,21 @@
+# StackDanQueue
+public class PercobaanQueue {
+    public static void main(String[] args) {
+        Queue Q = new Queue ();
+        Q.createEmpty();
+        Q.printQueue();
+        
+        System.out.println("==========================");
+        
+        Q.add("E31200245", "Daniel", 87.00);
+        Q.add("E31201245", "Abdullah", 88.00);
+        Q.add("E31202245", "Afandi", 92.00);
+        
+        Q.printQueue();
+        System.out.println("==========================");
+        Q.del();
+        Q.del();
+        System.out.println("==========================");
+        
+    }
+}
