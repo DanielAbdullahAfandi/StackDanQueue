@@ -1,0 +1,32 @@
+# StackDanQueue
+public class UjiCoba {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+         StackBaru S = new StackBaru();
+        
+        S.createEmpty();
+        S.printStack();
+        
+        System.out.println("**************************************");
+        
+        S.push ("E31200245", "Daniel", 89.00);
+        S.push ("E31201245", "Abdullah" , 85.00);
+        S.push ("E31202245", "Afandi", 90.00);
+        
+        
+        S.printStack();
+        
+        System.out.println("++++++++++++++++++++++++++++++++++++++");
+        
+        S.pop();
+        S.pop();
+        S.pop();
+        S.printStack();
+        
+        System.out.println("===========================================");
+    }
+    
+}
